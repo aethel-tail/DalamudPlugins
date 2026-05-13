@@ -1,0 +1,30 @@
+{
+  "Author": "aethel-tail",
+  "Name": "Graphics Upscaler Toggle",
+  "InternalName": "GraphicsUpscalerToggle",
+  "AssemblyVersion": "1.0.0",
+  "Description": "Automatically switches graphics upscaling from DLSS to FSR and back when entering the game. Works around the bug where DLSS doesn't properly engage on initial load and requires a manual toggle.",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/aethel-tail/GraphicsUpscalerToggle",
+  "Tags": [
+    "graphics",
+    "upscaling",
+    "dlss",
+    "fsr"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    ""
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/aethel-tail/DalamudPlugins/master/plugins/GraphicsUpscalerToggle/images/icon.png",
+  "Punchline": "Auto-toggle graphics upscaling to re-engage DLSS on login",
+  "Changelog": "",
+  "AcceptsFeedback": true
+}
