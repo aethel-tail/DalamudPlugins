@@ -2,7 +2,7 @@
   "Author": "aethel-tail",
   "Name": "Graphics Upscaler Toggle",
   "InternalName": "GraphicsUpscalerToggle",
-  "AssemblyVersion": "1.0.0",
+  "AssemblyVersion": "1.0.0.0",
   "Description": "Automatically switches graphics upscaling from DLSS to FSR and back when entering the game. Works around the bug where DLSS doesn't properly engage on initial load and requires a manual toggle.",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/aethel-tail/GraphicsUpscalerToggle",
