@@ -1,0 +1,32 @@
+{
+  "Author": "aethel-tail",
+  "Name": "超宽屏过场动画",
+  "InternalName": "Dalamud.FullscreenCutscenes",
+  "AssemblyVersion": "1.0.0.8",
+  "Description": "移除超宽屏显示器上过场动画的\"信箱模式\"黑边。\n注意！你可能会看到不该看到的东西，例如即将登场的NPC突然出现或T-pose。\n\n感谢aers的发现。",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes",
+  "Tags": [
+    "超宽屏",
+    "过场动画",
+    "全屏",
+    "ultrawide",
+    "cutscene",
+    "fullscreen"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    ""
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/aethel-tail/DalamudPlugins/master/plugins/Dalamud.FullscreenCutscenes/images/icon.png",
+  "Punchline": "移除超宽屏显示器上过场动画的黑边。",
+  "Changelog": "",
+  "AcceptsFeedback": true
+}
