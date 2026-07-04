@@ -8,16 +8,19 @@ on:
 
 concurrency: regenerate
 
+permissions:
+  contents: write
+
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v6
         with:
           python-version: '3.8'
           cache: 'pip'
@@ -28,7 +31,7 @@ jobs:
           python generate_pluginmaster.py
 
       - name: Commit PluginMaster
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v10
         with:
           author_name: GitHub Action
           author_email: github-actions[bot]@users.noreply.github.com
