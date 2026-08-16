@@ -6,7 +6,7 @@
         "Description": "移除超宽屏显示器上过场动画的\"信箱模式\"黑边。\n注意！你可能会看到不该看到的东西，例如即将登场的NPC突然出现或T-pose。\n\n感谢aers的发现。",
         "Changelog": "",
         "InternalName": "Dalamud.FullscreenCutscenes",
-        "AssemblyVersion": "1.0.0.8",
+        "AssemblyVersion": "1.0.0.9",
         "RepoUrl": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes",
         "ApplicableVersion": "any",
         "Tags": [
@@ -25,13 +25,13 @@
         "ImageUrls": [
             ""
         ],
-        "DownloadLinkInstall": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.0.8/latest.zip",
+        "DownloadLinkInstall": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.0.9/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.0.8/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.0.8/latest.zip",
-        "DownloadCount": 2,
-        "LastUpdate": "1780212992"
+        "DownloadLinkTesting": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.0.9/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.0.9/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1786874628"
     },
     {
         "Author": "MidoriKami, Lharz, aethel-tail",
@@ -40,7 +40,7 @@
         "Description": "货币数量达到设定阈值时提醒你：切换地图时在聊天框提示，并可在屏幕上显示悬浮 Overlay（图标+当前数量），支持拖拽定位、横竖排布、副本中自动隐藏。可追踪游戏内任意物品，包括神典石、军票、双色宝石等，也支持 HQ 物品与收集品。",
         "Changelog": "适配 7.5 / Dalamud API15：移除 KamiLib/KamiToolKit 依赖，Overlay 与配置界面全部重写。",
         "InternalName": "CurrencyAlert",
-        "AssemblyVersion": "3.0.0.1",
+        "AssemblyVersion": "3.0.0.2",
         "RepoUrl": "https://github.com/aethel-tail/CurrencyAlert",
         "ApplicableVersion": "any",
         "Tags": [
@@ -62,13 +62,13 @@
         "ImageUrls": [
             ""
         ],
-        "DownloadLinkInstall": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.1/latest.zip",
+        "DownloadLinkInstall": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.2/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.1/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.1/latest.zip",
+        "DownloadLinkTesting": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.2/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.2/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1786855454"
+        "LastUpdate": "1786874628"
     },
     {
         "Author": "aethel-tail",
@@ -77,7 +77,7 @@
         "Description": "进入游戏时自动将图形升频从DLSS切换至FSR再切回。解决DLSS在初始加载时无法正确激活、需手动切换的bug。",
         "Changelog": "",
         "InternalName": "GraphicsUpscalerToggle",
-        "AssemblyVersion": "1.0.0.0",
+        "AssemblyVersion": "1.0.0.1",
         "RepoUrl": "https://github.com/aethel-tail/GraphicsUpscalerToggle",
         "ApplicableVersion": "any",
         "Tags": [
@@ -98,12 +98,12 @@
         "ImageUrls": [
             ""
         ],
-        "DownloadLinkInstall": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.0.0.0/latest.zip",
+        "DownloadLinkInstall": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.0.0.1/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.0.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.0.0.0/latest.zip",
-        "DownloadCount": 8,
-        "LastUpdate": "1778690625"
+        "DownloadLinkTesting": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.0.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.0.0.1/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1786874628"
     }
 ]
