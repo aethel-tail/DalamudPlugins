@@ -2,7 +2,7 @@
   "Author": "aethel-tail",
   "Name": "图形升频切换",
   "InternalName": "GraphicsUpscalerToggle",
-  "AssemblyVersion": "1.0.0.0",
+  "AssemblyVersion": "1.0.0.1",
   "Description": "进入游戏时自动将图形升频从DLSS切换至FSR再切回。解决DLSS在初始加载时无法正确激活、需手动切换的bug。",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/aethel-tail/GraphicsUpscalerToggle",

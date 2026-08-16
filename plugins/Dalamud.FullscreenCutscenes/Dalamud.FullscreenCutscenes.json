@@ -2,7 +2,7 @@
   "Author": "aethel-tail",
   "Name": "超宽屏过场动画",
   "InternalName": "Dalamud.FullscreenCutscenes",
-  "AssemblyVersion": "1.0.0.8",
+  "AssemblyVersion": "1.0.0.9",
   "Description": "移除超宽屏显示器上过场动画的\"信箱模式\"黑边。\n注意！你可能会看到不该看到的东西，例如即将登场的NPC突然出现或T-pose。\n\n感谢aers的发现。",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes",
