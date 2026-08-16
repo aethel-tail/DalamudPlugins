@@ -1,0 +1,35 @@
+{
+  "Author": "MidoriKami, Lharz, aethel-tail",
+  "Name": "货币提醒",
+  "InternalName": "CurrencyAlert",
+  "AssemblyVersion": "3.0.0.0",
+  "Description": "货币数量达到设定阈值时提醒你：切换地图时在聊天框提示，并可在屏幕上显示悬浮 Overlay（图标+当前数量），支持拖拽定位、横竖排布、副本中自动隐藏。可追踪游戏内任意物品，包括神典石、军票、双色宝石等，也支持 HQ 物品与收集品。",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/aethel-tail/CurrencyAlert",
+  "Tags": [
+    "货币",
+    "神典石",
+    "军票",
+    "提醒",
+    "追踪",
+    "currency",
+    "tomestone",
+    "alert",
+    "tracker"
+  ],
+  "CategoryTags": [
+    "utility"
+  ],
+  "DalamudApiLevel": 15,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "ImageUrls": [
+    ""
+  ],
+  "IconUrl": "https://raw.githubusercontent.com/aethel-tail/DalamudPlugins/master/plugins/CurrencyAlert/images/icon.png",
+  "Punchline": "货币数量达到设定阈值时发出提醒。",
+  "Changelog": "适配 7.5 / Dalamud API15：移除 KamiLib/KamiToolKit 依赖，Overlay 与配置界面全部重写。",
+  "AcceptsFeedback": true
+}

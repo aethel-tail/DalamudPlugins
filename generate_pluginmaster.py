@@ -50,7 +50,7 @@ def extract_manifests():
         plugin_name = os.path.basename(dirpath)
         if len(filenames) == 0 or f'{plugin_name}.json' not in filenames:
             continue
-        with open(os.path.join(dirpath, f'{plugin_name}.json'), 'r') as f:
+        with open(os.path.join(dirpath, f'{plugin_name}.json'), 'r', encoding='utf-8') as f:
             manifest = json.load(f)
             manifests.append(manifest)
 
@@ -96,7 +96,7 @@ def get_release_download_count(owner, repo, version):
 
 def get_last_updated_times(manifests):
     try:
-        with open('pluginmaster.json', 'r') as f:
+        with open('pluginmaster.json', 'r', encoding='utf-8') as f:
             previous_manifests = json.load(f)
     except (FileNotFoundError, json.JSONDecodeError):
         previous_manifests = []
@@ -113,8 +113,8 @@ def get_last_updated_times(manifests):
 
 
 def write_master(master):
-    with open('pluginmaster.json', 'w') as f:
-        json.dump(master, f, indent=4)
+    with open('pluginmaster.json', 'w', encoding='utf-8') as f:
+        json.dump(master, f, indent=4, ensure_ascii=False)
 
 
 def trim_manifest(plugin):
