@@ -1,5 +1,42 @@
 [
     {
+        "Author": "MidoriKami, Lharz, aethel-tail",
+        "Name": "货币提醒",
+        "Punchline": "货币数量达到设定阈值时发出提醒。",
+        "Description": "货币数量达到设定阈值时提醒你：切换地图时在聊天框提示，并可在屏幕上显示悬浮 Overlay（图标+当前数量），支持拖拽定位、横竖排布、副本中自动隐藏。可追踪游戏内任意物品，包括神典石、军票、双色宝石等，也支持 HQ 物品与收集品。",
+        "Changelog": "适配 7.5 / Dalamud API15：移除 KamiLib/KamiToolKit 依赖，Overlay 与配置界面全部重写。",
+        "InternalName": "CurrencyAlert",
+        "AssemblyVersion": "3.0.0.1",
+        "RepoUrl": "https://github.com/aethel-tail/CurrencyAlert",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "货币",
+            "神典石",
+            "军票",
+            "提醒",
+            "追踪",
+            "currency",
+            "tomestone",
+            "alert",
+            "tracker"
+        ],
+        "CategoryTags": [
+            "utility"
+        ],
+        "DalamudApiLevel": 15,
+        "IconUrl": "https://raw.githubusercontent.com/aethel-tail/DalamudPlugins/master/plugins/CurrencyAlert/images/icon.png",
+        "ImageUrls": [
+            ""
+        ],
+        "DownloadLinkInstall": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.1/latest.zip",
+        "IsHide": false,
+        "IsTestingExclusive": false,
+        "DownloadLinkTesting": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.1/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.1/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1786855454"
+    },
+    {
         "Author": "aethel-tail",
         "Name": "超宽屏过场动画",
         "Punchline": "移除超宽屏显示器上过场动画的黑边。",
@@ -32,43 +69,6 @@
         "DownloadLinkUpdate": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.0.8/latest.zip",
         "DownloadCount": 2,
         "LastUpdate": "1780212992"
-    },
-    {
-        "Author": "MidoriKami, Lharz, aethel-tail",
-        "Name": "货币提醒",
-        "Punchline": "货币数量达到设定阈值时发出提醒。",
-        "Description": "货币数量达到设定阈值时提醒你：切换地图时在聊天框提示，并可在屏幕上显示悬浮 Overlay（图标+当前数量），支持拖拽定位、横竖排布、副本中自动隐藏。可追踪游戏内任意物品，包括神典石、军票、双色宝石等，也支持 HQ 物品与收集品。",
-        "Changelog": "适配 7.5 / Dalamud API15：移除 KamiLib/KamiToolKit 依赖，Overlay 与配置界面全部重写。",
-        "InternalName": "CurrencyAlert",
-        "AssemblyVersion": "3.0.0.0",
-        "RepoUrl": "https://github.com/aethel-tail/CurrencyAlert",
-        "ApplicableVersion": "any",
-        "Tags": [
-            "货币",
-            "神典石",
-            "军票",
-            "提醒",
-            "追踪",
-            "currency",
-            "tomestone",
-            "alert",
-            "tracker"
-        ],
-        "CategoryTags": [
-            "utility"
-        ],
-        "DalamudApiLevel": 15,
-        "IconUrl": "https://raw.githubusercontent.com/aethel-tail/DalamudPlugins/master/plugins/CurrencyAlert/images/icon.png",
-        "ImageUrls": [
-            ""
-        ],
-        "DownloadLinkInstall": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.0/latest.zip",
-        "IsHide": false,
-        "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.0.0/latest.zip",
-        "DownloadCount": 0,
-        "LastUpdate": "1786855054"
     },
     {
         "Author": "aethel-tail",
