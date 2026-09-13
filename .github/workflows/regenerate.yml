@@ -1,10 +1,12 @@
 name: Regenerate PluginMaster
 
+# Triggered by the plugin repos' release workflows (they bump the manifest version in this repo,
+# and that push lands here) and by any other push. No schedule — releases drive regeneration.
+# Manual runs: Actions -> Regenerate PluginMaster -> Run workflow.
+
 on:
   workflow_dispatch:
   push:
-  schedule:
-    - cron: '0 */12 * * *'
 
 concurrency: regenerate
 
@@ -31,8 +33,13 @@ jobs:
           python generate_pluginmaster.py
 
       - name: Commit PluginMaster
-        uses: EndBug/add-and-commit@v10
-        with:
-          author_name: GitHub Action
-          author_email: github-actions[bot]@users.noreply.github.com
-          message: Regenerate PluginMaster
+        run: |
+          if git diff --quiet -- pluginmaster.json; then
+            echo "pluginmaster.json unchanged — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pluginmaster.json
+          git commit -m "Regenerate PluginMaster"
+          git push
