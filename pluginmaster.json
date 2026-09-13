@@ -43,7 +43,7 @@
         "Description": "登录后触发引擎重建以重新启用 DLSS（对 OptiScaler 等外部工具同样有效），并拦截重建期间的窗口样式变更，窗口与分辨率全程无感。解决 DLSS 在初始加载时无法正确激活、需手动切换的问题。",
         "Changelog": "",
         "InternalName": "GraphicsUpscalerToggle",
-        "AssemblyVersion": "1.1.0.0",
+        "AssemblyVersion": "1.1.1.0",
         "RepoUrl": "https://github.com/aethel-tail/GraphicsUpscalerToggle",
         "ApplicableVersion": "any",
         "Tags": [
@@ -64,13 +64,13 @@
         "ImageUrls": [
             ""
         ],
-        "DownloadLinkInstall": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.0.0/latest.zip",
+        "DownloadLinkInstall": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.1.0/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.0.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.0.0/latest.zip",
+        "DownloadLinkTesting": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.1.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.1.0/latest.zip",
         "DownloadCount": 0,
-        "LastUpdate": "1789283385"
+        "LastUpdate": "1789283680"
     },
     {
         "Author": "aethel-tail",
