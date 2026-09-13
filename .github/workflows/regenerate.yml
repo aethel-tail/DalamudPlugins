@@ -32,19 +32,36 @@ jobs:
           python-version: '3.8'
           cache: 'pip'
 
-      - name: Generate PluginMaster
+      - name: Generate and push PluginMaster
         run: |
-          pip install -r requirements.txt
-          python generate_pluginmaster.py
-
-      - name: Commit PluginMaster
-        run: |
-          if git diff --quiet -- pluginmaster.json; then
-            echo "pluginmaster.json unchanged — nothing to commit."
-            exit 0
-          fi
+          pip install --quiet -r requirements.txt
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add pluginmaster.json
-          git commit -m "Regenerate PluginMaster"
-          git push
+
+          # Two plugins can release seconds apart, so a push may land while this run is mid-flight and
+          # make its own push non-fast-forward. Take the newest HEAD, regenerate, and retry.
+          for attempt in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --hard --quiet origin/main
+
+            python generate_pluginmaster.py
+
+            if git diff --quiet -- pluginmaster.json; then
+              echo "pluginmaster.json unchanged — nothing to commit."
+              exit 0
+            fi
+
+            git add pluginmaster.json
+            git commit --quiet -m "Regenerate PluginMaster"
+
+            if git push --quiet; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+
+            echo "Push rejected on attempt $attempt — regenerating on top of the new HEAD."
+            sleep 5
+          done
+
+          echo "::error::Could not push pluginmaster.json after 5 attempts."
+          exit 1
