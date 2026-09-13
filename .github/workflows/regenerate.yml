@@ -1,12 +1,17 @@
 name: Regenerate PluginMaster
 
 # Triggered by the plugin repos' release workflows (they bump the manifest version in this repo,
-# and that push lands here) and by any other push. No schedule — releases drive regeneration.
+# and that push lands here) and by any other push — that is what makes version updates instant.
+#
+# The schedule exists for DownloadCount only: GitHub has no "release asset downloaded" event, so
+# the counts in pluginmaster.json can only be refreshed by polling. Versions never wait for it.
 # Manual runs: Actions -> Regenerate PluginMaster -> Run workflow.
 
 on:
   workflow_dispatch:
   push:
+  schedule:
+    - cron: '11 4 * * *'
 
 concurrency: regenerate
 
