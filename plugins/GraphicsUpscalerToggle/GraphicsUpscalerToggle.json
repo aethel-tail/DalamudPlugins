@@ -2,7 +2,7 @@
   "Author": "aethel-tail",
   "Name": "图形升频切换",
   "InternalName": "GraphicsUpscalerToggle",
-  "AssemblyVersion": "1.1.1.0",
+  "AssemblyVersion": "1.1.2.0",
   "Description": "登录后经由游戏自身的显示设置重应用流程重建 DLSS 特性，从而真正让 DLSS 生效（OptiScaler 等外部工具也能正常接管）；期间窗口守卫拦截边框样式变更，窗口与分辨率全程无感。解决 DLSS 在初始加载时无法正确激活、需手动切换的问题。",
   "ApplicableVersion": "any",
   "RepoUrl": "https://github.com/aethel-tail/GraphicsUpscalerToggle",
