@@ -43,7 +43,7 @@
         "Description": "登录后经由游戏自身的显示设置重应用流程重建 DLSS 特性，从而真正让 DLSS 生效（OptiScaler 等外部工具也能正常接管）；期间窗口守卫拦截边框样式变更，窗口与分辨率全程无感。解决 DLSS 在初始加载时无法正确激活、需手动切换的问题。",
         "Changelog": "",
         "InternalName": "GraphicsUpscalerToggle",
-        "AssemblyVersion": "1.1.1.0",
+        "AssemblyVersion": "1.1.2.0",
         "RepoUrl": "https://github.com/aethel-tail/GraphicsUpscalerToggle",
         "ApplicableVersion": "any",
         "Tags": [
@@ -64,13 +64,13 @@
         "ImageUrls": [
             ""
         ],
-        "DownloadLinkInstall": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.1.0/latest.zip",
+        "DownloadLinkInstall": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.2.0/latest.zip",
         "IsHide": false,
         "IsTestingExclusive": false,
-        "DownloadLinkTesting": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.1.0/latest.zip",
-        "DownloadLinkUpdate": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.1.0/latest.zip",
-        "DownloadCount": 5,
-        "LastUpdate": "1789283680"
+        "DownloadLinkTesting": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.2.0/latest.zip",
+        "DownloadLinkUpdate": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.2.0/latest.zip",
+        "DownloadCount": 0,
+        "LastUpdate": "1789484431"
     },
     {
         "Author": "aethel-tail",
