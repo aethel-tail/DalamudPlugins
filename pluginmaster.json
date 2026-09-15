@@ -39,8 +39,8 @@
     {
         "Author": "aethel-tail",
         "Name": "图形升频切换",
-        "Punchline": "登录时自动重新启用 DLSS（引擎重建 + 窗口保护）",
-        "Description": "登录后触发引擎重建以重新启用 DLSS（对 OptiScaler 等外部工具同样有效），并拦截重建期间的窗口样式变更，窗口与分辨率全程无感。解决 DLSS 在初始加载时无法正确激活、需手动切换的问题。",
+        "Punchline": "登录时自动重新启用 DLSS（受保护的显示设置重应用）",
+        "Description": "登录后经由游戏自身的显示设置重应用流程重建 DLSS 特性，从而真正让 DLSS 生效（OptiScaler 等外部工具也能正常接管）；期间窗口守卫拦截边框样式变更，窗口与分辨率全程无感。解决 DLSS 在初始加载时无法正确激活、需手动切换的问题。",
         "Changelog": "",
         "InternalName": "GraphicsUpscalerToggle",
         "AssemblyVersion": "1.1.1.0",
