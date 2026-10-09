@@ -30,7 +30,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.1.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/aethel-tail/Dalamud.FullscreenCutscenes/releases/download/v1.0.1.0/latest.zip",
-        "DownloadCount": 3,
+        "DownloadCount": 4,
         "LastUpdate": "1789286137"
     },
     {
@@ -67,7 +67,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.1.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/aethel-tail/CurrencyAlert/releases/download/v3.0.1.0/latest.zip",
-        "DownloadCount": 3,
+        "DownloadCount": 4,
         "LastUpdate": "1789286137"
     },
     {
@@ -103,7 +103,7 @@
         "IsTestingExclusive": false,
         "DownloadLinkTesting": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.2.0/latest.zip",
         "DownloadLinkUpdate": "https://github.com/aethel-tail/GraphicsUpscalerToggle/releases/download/v1.1.2.0/latest.zip",
-        "DownloadCount": 12,
+        "DownloadCount": 13,
         "LastUpdate": "1789484431"
     }
 ]
